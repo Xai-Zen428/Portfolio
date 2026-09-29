@@ -1,0 +1,51 @@
+@media(max-width:780px){
+  body{overflow-x:hidden}
+  .container{width:min(100% - 2rem,1160px)}
+  .header-inner{min-height:78px;padding-block:.35rem}
+  .brand{gap:.5rem;max-width:calc(100% - 52px)}
+  .brand img{flex:none;width:62px;height:60px}
+  .brand-copy{min-width:0}
+  .brand-copy strong{font-size:clamp(.82rem,4vw,1rem);white-space:normal}
+  .brand-copy .brand-slogan{font-size:.46rem;white-space:normal;line-height:1.15;padding:.22rem .35rem}
+  .header-inner nav{top:78px;left:1rem;right:1rem;max-height:calc(100vh - 94px);overflow-y:auto}
+  .hero{padding:3.2rem 0 5rem}
+  .hero-layout{gap:2.4rem}
+  .hero-copy{min-width:0}
+  h1{font-size:clamp(2.65rem,12vw,3.65rem);line-height:.98;letter-spacing:-.045em}
+  h2{font-size:clamp(2.35rem,10vw,3.5rem)}
+  .hero-lead{font-size:1rem;line-height:1.55}
+  .hero-buttons{gap:.7rem;margin:1.5rem 0 1rem}
+  .hero-buttons .button,.admission-actions .button,.visit-actions .button,.why-cta .button{width:100%}
+  .hero-details{font-size:.78rem;line-height:1.5}
+  .hero-details span{display:flex;align-items:flex-start}
+  .hero-illustration{min-height:315px;margin:0 .25rem;border-width:8px}
+  .section{padding:4.2rem 0}
+  .about-art{min-height:275px;margin:0 .7rem}
+  .about-copy>p:not(.eyebrow){font-size:1rem}
+  .vision-box,.mission-box{padding:1rem;gap:.7rem}
+  .programme-card{min-height:0;padding:1.35rem}
+  .class-logo{width:76px;height:76px;margin-bottom:1rem}
+  .class-heading h3{font-size:1.25rem}
+  .gallery-grid{gap:.7rem}
+  .gallery-tile{border-radius:20px}
+  .birthday-moments{margin-inline:0}
+  .why-photo{min-height:300px}
+  .why-card{min-height:0;padding:1.25rem}
+  .why-card p{font-size:.9rem}
+  .visit-item strong{font-size:.95rem}
+  .enquiry-form{padding:1.25rem;border-radius:24px}
+  .form-grid{gap:.7rem}
+  .map-panel{padding:.65rem;border-radius:25px}
+  .map-placeholder{min-height:300px;padding:1rem}
+  .butterfly-scene{z-index:3;bottom:.45rem;font-size:1.45rem}
+  .footer-inner{padding-inline:0}
+}
+@media(max-width:380px){
+  .container{width:calc(100% - 1.4rem)}
+  .brand img{width:56px;height:54px}
+  .brand-copy strong{font-size:.78rem}
+  .brand-copy .brand-slogan{font-size:.41rem}
+  .hero-illustration{min-height:275px}
+  .quick-fact{min-width:140px}
+}
+@media(prefers-reduced-motion:reduce){.butterfly-scene{animation:none}}

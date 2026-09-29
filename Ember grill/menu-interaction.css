@@ -1,0 +1,7 @@
+.menu-card{opacity:1;transform:translateY(0);transition:opacity .22s ease,transform .22s ease}
+.menu-card.is-leaving,.menu-card.is-entering{opacity:0;transform:translateY(9px)}
+.menu-tabs{scrollbar-width:none}
+.menu-tabs::-webkit-scrollbar{display:none}
+.menu-tab{transition:color .2s ease}
+.menu-tab:focus-visible{outline:1px solid #ff941f;outline-offset:6px}
+@media(prefers-reduced-motion:reduce){.menu-card,.menu-tab{transition:none}}

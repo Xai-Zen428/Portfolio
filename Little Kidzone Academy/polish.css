@@ -1,0 +1,8 @@
+html{scroll-padding-top:116px}
+.button{min-height:48px}
+.button:focus-visible,.menu-toggle:focus-visible,.header-inner nav a:focus-visible,.back-top:focus-visible{outline:3px solid var(--purple);outline-offset:4px}
+@media(max-width:780px){
+  .header-inner nav{display:flex;visibility:hidden;opacity:0;pointer-events:none;transform:translateY(-8px);transition:opacity .2s ease,transform .2s ease,visibility .2s}
+  .header-inner nav.is-open{visibility:visible;opacity:1;pointer-events:auto;transform:translateY(0)}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.header-inner nav{transition:none}}

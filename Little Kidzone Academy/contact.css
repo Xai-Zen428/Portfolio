@@ -1,0 +1,2 @@
+.map-embed{width:100%;overflow:hidden;border-radius:22px;aspect-ratio:4/3;background:#fff}.map-embed iframe{display:block;width:100%;height:100%;border:0}.map-placeholder>.button{margin-top:1rem}@media(max-width:780px){.map-embed{aspect-ratio:16/11}}
+@media(max-width:780px){.visit-list{gap:1.25rem}.visit-item{gap:.85rem}.visit-item>div{min-width:0;display:grid;gap:.2rem}.visit-item small{line-height:1.2}.visit-item strong{line-height:1.45;overflow-wrap:anywhere}.visit-item .closed-note{margin-top:.1rem;line-height:1.35}}
